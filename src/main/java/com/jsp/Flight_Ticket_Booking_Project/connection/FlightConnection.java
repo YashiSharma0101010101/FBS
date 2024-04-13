@@ -17,7 +17,7 @@ public class FlightConnection
 		DriverManager.registerDriver(driver);
 		 String url="jdbc:mysql://localhost:3306/flightbooking";
 		 String user="root";
-		 String password="root";
+		 String password="kado";
 		  
 		return DriverManager.getConnection(url, user, password);
 	} catch (SQLException e) {
